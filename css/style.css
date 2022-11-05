@@ -1,0 +1,177 @@
+.container{
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.cal{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+/*input html Start*/
+.input{
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.name{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+    color: azure;
+}
+
+.tamil{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+    color: azure;
+}
+
+.en{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+    color: azure;
+}
+
+.maths{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+    color: azure;
+}
+
+.sc{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+    color: azure;
+}
+
+.ss{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+    color: azure;
+}
+
+.name input{
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+
+.tamil input{
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.en input{
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.maths input{
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.sc input{
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.ss input{
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.name input:focus{
+    outline: none;
+}
+
+.tamil input:focus{
+    outline: none;
+}
+
+.en input:focus{
+    outline: none;
+}
+
+.maths input:focus{
+    outline: none;
+}
+
+.sc input:focus{
+    outline: none;
+}
+
+.ss input:focus{
+    outline: none;
+}
+
+button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 43px;
+    background-color: #9f3ec9;
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: azure;
+    color: #9f3ec9;
+}
+/*input html End*/
+
+/*js table start*/
+.jstable{
+    width: 70%;
+    height: auto;
+    /* margin-left: 20px; */
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+table, th, td{
+    border: solid 1px azure;
+    color: #9f3ec9;
+    font-family: cursive;
+    font-size: 18px;
+}
+/*js table start*/
